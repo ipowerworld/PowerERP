@@ -1,0 +1,135 @@
+# Copyright (C) 2022 Serge inack <inack3serge@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleGestionImmobilisationsName'
+ModuleGestionImmobilisationsName = GestionImmobilisations
+# Module description 'ModuleGestionImmobilisationsDesc'
+ModuleGestionImmobilisationsDesc = Description gestionImmobilisations 
+
+#
+# Admin page
+#
+GestionImmobilisationsSetup = GestionImmobilisations
+Settings = Configuration
+GestionImmobilisationsSetupPage = Page GestionImmobilisations
+GESTIONIMMOBILISATIONS_MYPARAM1 = Mon parametre 1
+GESTIONIMMOBILISATIONS_MYPARAM1Tooltip = Mon parametre 1 info-bulle
+GESTIONIMMOBILISATIONS_MYPARAM2=Mon parametre 2
+GESTIONIMMOBILISATIONS_MYPARAM2Tooltip=Mon parametre 2 info-bulle
+
+
+#
+# About page
+#
+About = A propos
+GestionImmobilisationsAbout = A props GestionImmobilisations
+GestionImmobilisationsAboutPage = Page a propos GestionImmobilisations
+
+#
+# Sample page
+#
+MyPageName = Ma page
+InApproval = En approbation
+Transfer = Transférer
+
+
+#
+# link
+#
+
+
+ExtraFields_(catégories) = Attributs supplémentaires (catégories)
+ExtraFields_(immobilisations) = Attributs supplémentaires (immobilisations)
+
+ModuleGestionImmobilisationsNameLink = Gestion des immobilisations
+ListImmobilisations = Liste des immobilisations
+NewImmobilisations = Nouvelle immobilisation 
+categoriesimmo = Catégories d'immobilisations
+Newcategories = Nouvelle catégorie
+Listcategories = Liste des catégories
+Sublistcategories = Liste des sous-categories
+
+#
+# Immobilisations object
+#
+
+cc_immobilisation = Code de l'immobilisation
+cc_compte_amortissement = Code d'amortissement
+cc_compte_charges_amortissement = Code de charge d'amortissement
+total_period = Période d'immobilisation
+remaining_period = Période restante
+consumption = de consommation
+immo_information = Comptes comptables
+InUsed = En consommation
+initConsumption = Initialiser la consommation
+Terminate = Consommé
+Disabled = Refusé
+Transfer/Attribute = Transférer / Attribué
+UserTransfer = Validateur
+UserAttribute = Attribué à
+WriteAccountancy = Passer l'écriture comptable
+WriteAllAccountancy = Passer toutes les écritures comptables
+
+
+closeThisImmo = Annuler l'immobilisation
+TransferInApproval = Mettre en approbation
+closeThisImmoText = Etes vous vraiment sur de vouloir annuler cette immobilisation ?
+depreciation = Amortissement
+accountWriting = Voir les écritures périodiques
+accountacy = Comptabilité
+scrapping = Mise au rebus
+putSrapping = êtes-vous sûr de vouloir continuer cette opération ?
+QuestionWriteAccountancy = Voulez vous vraiment passer les écritures comptables pour cette immobilisation ?
+
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+ImmobilisationsDashboard = Statistiques
+
+
+#
+# Permissions
+#
+
+rigth1 = Lire les objets d'immobilisations
+rigth2 = Creer/Modifier les objects d'immobilisation
+rigth3 = Supprimer les objects d'immobilisation
+rigth4 = Voir les statistiques d'immobilisation
+rigth5 = Configurer le module immobilisation
+rigth6 = Valider les Immobilisations
+rigth7 = Mettre les immobilisations en approbation
+rigth8 = Initialiser la consommation des immobilisations
+rigth9 = Mettre les immobilisations au rebus
+rigth10 = Passer les écritures comptables des immobilisation
+rigth11 = Lire les categories d'immobilisation
+rigth12 = Creer/Modifier les categories d'immobilisation
+rigth13 = Supprimer les categories d'immobilisation
+
+encours = En cours
+cloture = Cloturé
+amountbrut = Montant brut
+amountnet = Montant net
+amountimmo = Montant immobilisé
+pourcentAmmorti = Pourcentage ammorti
+Configurationtitle = CONFIGURATION SPÉCIFIQUE AU CATÉGORIES D'IMMOBILISATIONS...
+Amortdurationtitle = La durée d’amortissement
+durationlabel = La durée d’amortissement est répartie sur la durée normale d'utilisation du bien, déterminée d'après les usages de la profession et selon l'utilisation du bien dans l'entreprise. On utilise l'amortissement afin de constater la perte de valeur d'une immobilisation car un bien n'a pas la même valeur chaque année et chaque bien à une durée d'amortissement différente.

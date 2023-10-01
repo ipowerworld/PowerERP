@@ -1,0 +1,3 @@
+--
+-- Script run when an upgrade of powererp is done. Whatever is the powererp version.
+--

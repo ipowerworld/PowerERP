@@ -1,0 +1,63 @@
+# Copyright (C) 2023 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleLocalisationName'
+ModuleLocalisationName = Localisation
+LocalisationArea = Module Localisation
+# Module description 'ModuleLocalisationDesc'
+ModuleLocalisationDesc = Description de localisation 
+
+#
+# Admin page
+#
+LocalisationSetup = Configuration Localisation
+Settings = Parametres
+LocalisationSetupPage = Page de configuration de localisation
+LOCALISATION_MYPARAM1 = Mon parametre 1
+LOCALISATION_MYPARAM1Tooltip = Mon parametre 1 infobulle
+LOCALISATION_MYPARAM2=Mon parametre 2
+LOCALISATION_MYPARAM2Tooltip=Mon parametre 2 infobulle
+
+
+#
+# About page
+#
+About = A propos
+LocalisationAbout = A propos de Localisation
+LocalisationAboutPage = Page a propos de localisation
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = Mon widget
+MyWidgetDescription = Mon widget description
+
+################################################
+
+NewEntrepot = Nouveau container
+ListeEntrepot = Liste container
+titleLocalisation = Localisation
+butLocalised = Localiser
+LocaliserContainer = Localisation de
+ContainerMere = (Container mère)

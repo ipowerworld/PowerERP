@@ -176,20 +176,8 @@ class modAdherent extends PowerERPModules
 			'Quick-Notes' => 'modQuickNotes',
 			'MultiCompany' => 'modMultiCompany',
 			'PreviewDocuments' => 'modPreviewDocuments',
-			'Comptabilité de trésorerie' => 'modTreasuryaccounting',
-			'modAccounting',
-			'modAgenda',
-			'modBanque',
-			'modBarcode',
-			'modCommande',
-			'modComptabilite',
-			'modContrat',
-			'modFournisseur',
-			'modHoliday',
-			'modLoan',
-			'produit' => 'modProduct',
-			'Fournisseur' => 'modFournisseur',
-			'Comptabilité' => 'modComptabilite'
+			'Comptabilité de trésorerie' => 'modTreasuryaccounting'
+
 		); // List of module class names as string that must be enabled if this module is enabled
 		$this->requiredby = array(
 			'Holiday' => 'modHoliday',
@@ -297,20 +285,7 @@ class modAdherent extends PowerERPModules
 			'Quick-Notes' => 'modQuickNotes',
 			'MultiCompany' => 'modMultiCompany',
 			'PreviewDocuments' => 'modPreviewDocuments',
-			'Comptabilité de trésorerie' => 'modTreasuryaccounting',
-			'modAccounting',
-			'modAgenda',
-			'modBanque',
-			'modBarcode',
-			'modCommande',
-			'modComptabilite',
-			'modContrat',
-			'modFournisseur',
-			'modHoliday',
-			'modLoan',
-			'produit' => 'modProduct',
-			'Fournisseur' => 'modFournisseur',
-			'Comptabilité' => 'modComptabilite'
+			'Comptabilité de trésorerie' => 'modTreasuryaccounting'
 		); // List of module ids to disable if this one is disabled
 		$this->conflictwith = array('modMailmanSpip'); // List of module class names as string this module is in conflict with
 		$this->langfiles = array("members", "companies");

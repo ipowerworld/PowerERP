@@ -1,0 +1,134 @@
+# Copyright (C) 2023 Serge inack <inack3serge@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleImmobilisationsName'
+ModuleImmobilisationsName = Immobilisations
+# Module description 'ModuleImmobilisationsDesc'
+ModuleImmobilisationsDesc = Immobilisations description
+
+#
+# Admin page
+#
+ImmobilisationsSetup = Immobilisations setup
+Settings = Settings
+ImmobilisationsSetupPage = Immobilisations setup page
+IMMOBILISATIONS_MYPARAM1 = My param 1
+IMMOBILISATIONS_MYPARAM1Tooltip = My param 1 tooltip
+IMMOBILISATIONS_MYPARAM2=My param 2
+IMMOBILISATIONS_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+ImmobilisationsAbout = About Immobilisations
+ImmobilisationsAboutPage = Immobilisations about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+InApproval = En approbation
+Transfer = Transfer
+
+
+#
+# link
+#
+
+
+ExtraFields_(catégories) = Additional attributes (categories)
+ExtraFields_(immobilisations) = Additional attributes (asset)
+
+ModuleGestionImmobilisationsNameLink = Asset management
+ListImmobilisations = List of assets
+NewImmobilisations = New asset 
+categoriesimmo = Categories of assets
+Newcategories = New category
+Listcategories = List of category
+Sublistcategories = List of subcategories
+
+#
+# Immobilisations object
+#
+
+cc_immobilisation = Asset code
+cc_compte_amortissement = Depreciation code
+cc_compte_charges_amortissement = Depreciation Charge Code
+total_period = Asset's period
+remaining_period = Remaining period
+consumption = of consumption
+immo_information = Accounting accounts
+InUsed = in consumption
+initConsumption = Initialize consumption
+Terminate = consumes
+Disabled = Denied
+Transfer/Attribute = To Transfer / Assign
+UserTransfer = Validator
+UserAttribute = Assigned to
+WriteAccountancy = Make the accounting entry
+WriteAllAccountancy = Make all accounting entries
+
+
+closeThisImmo = Denied the asset
+TransferInApproval = Put for approval
+closeThisImmoText = Are you really sure you want to cancel this asset?
+depreciation = Depreciation
+accountWriting = View periodic entries
+accountacy = Accounting
+scrapping = Disposal
+putSrapping = are you sure you want to continue this operation?
+QuestionWriteAccountancy = Do you really want to make the accounting entries for this asset?
+
+#
+# Sample widget
+#
+
+MyWidget = My widget
+MyWidgetDescription = My widget description
+ImmobilisationsDashboard = Statistiques
+
+#
+# Rights
+#
+
+rigth1 = Read objects of Immobilisations
+rigth2 = Create/Update objects of Immobilisations
+rigth3 = Delete objects of Immobilisations
+rigth4 = Look statistics of Immobilisations
+rigth5 = Configurate the modul immobilisation
+rigth6 = Validate objects of Immobilisations
+rigth7 = Put in approval objects of Immobilisations
+rigth8 = initiate consuption objects of Immobilisations
+rigth9 = scrapp objects of Immobilisations
+rigth10 = see account of Immobilisations
+rigth11 = Read objects of Categories
+rigth12 = Create/Update objects of Categories
+rigth13 = Delete objects of Categories
+
+encours = En cours
+cloture = Cloturé
+amountbrut = Montant brut
+amountnet = Montant net
+amountimmo = Montant immobilisé
+pourcentAmmorti = Amortized percentage
+Configurationtitle = SPECIFIC CONFIGURATION FOR FIXED ASSETS CATEGORIES...
+Amortdurationtitle = The amortization period
+durationlabel = The depreciation period is spread over the normal duration of use of the asset, determined according to professional practices and the use of the asset in the business. Depreciation is used to determine the loss in value of a fixed asset because an asset does not have the same value each year and each asset has a different depreciation period.
